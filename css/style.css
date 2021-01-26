@@ -207,4 +207,26 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 85px;
+  padding-bottom: 87px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 270px;
+}
+.skill-img {
+  margin-bottom: 30px;
+}
+.skill-heading {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.skill-p {
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
 }
