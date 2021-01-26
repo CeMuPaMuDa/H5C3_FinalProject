@@ -41,7 +41,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  background-color: cornflowerblue;
 }
 .container {
   max-width: 1280px;
@@ -134,6 +133,58 @@ body {
 }
 .icon-right {
   margin-right: 30px;
+}
+/* slider */
+.slider-block {
+  display: flex;
+  justify-content: space-between;
+}
+.slider-left {
+  margin-top: 42px;
+  margin-left: -122px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 73px;
+}
+.slider-right {
+  margin-top: 42px;
+  margin-right: -122px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 73px;
+}
+.slider-text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 315px;
+}
+.slider-heading {
+  font-size: 36px;
+  line-height: 42px;
+}
+.slider-title {
+  font-size: 52px;
+  line-height: 61px;
+  margin-bottom: 4px;
+}
+.slider-p {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 563px;
+  margin-bottom: 39px;
+}
+.slider-btn {
+  align-self: center;
+  background: #988574;
+  border-radius: 3px;
+  padding: 19px 40px;
+}
+.radio {
+  text-align: center;
+  padding-bottom: 49px;
 }
 /* @import url("reset.css");
 
