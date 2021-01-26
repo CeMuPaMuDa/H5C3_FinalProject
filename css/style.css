@@ -47,6 +47,16 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
+/* fonts & text */
+.white {
+  color: white;
+}
+.pastel {
+  color: #c7b299;
+}
+.center {
+  text-align: center;
+}
 .weight300 {
   font-weight: 300;
 }
@@ -89,6 +99,41 @@ body {
 }
 .footer-bottom {
   background: #101010;
+}
+/* header */
+.header {
+  padding-top: 39px;
+  margin-bottom: 315px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-title {
+  padding-top: 7px;
+  font-size: 34px;
+  line-height: 40px;
+}
+.logo {
+  display: flex;
+}
+.menu-list {
+  display: flex;
+}
+.menu-list-item {
+  padding-top: 19px;
+  margin-right: 24px;
+  font-size: 14px;
+  line-height: 17px;
+}
+.icons {
+  display: flex;
+}
+.icon {
+  padding-top: 15px;
+}
+.icon-right {
+  margin-right: 30px;
 }
 /* @import url("reset.css");
 
