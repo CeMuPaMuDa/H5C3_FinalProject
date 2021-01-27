@@ -121,9 +121,9 @@ body {
 }
 .menu-list {
   display: flex;
+  padding-top: 19px;
 }
 .menu-link-item {
-  padding-top: 19px;
   margin-right: 24px;
   font-size: 14px;
   line-height: 17px;
@@ -162,10 +162,10 @@ body {
   background-repeat: no-repeat;
   width: 40px;
   height: 73px;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
 }
-.slider-right path:hover,
-.slider-left path:hover {
+.slider-right:hover path,
+.slider-left:hover path {
   fill: #d3c1ac;
 }
 .slider-text-block {
@@ -254,4 +254,19 @@ body {
   max-width: 770px;
   font-size: 16px;
   line-height: 20px;
+}
+/* purchase */
+.purchase-flex {
+  padding-top: 44px;
+  padding-bottom: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+.purchase-heading {
+  font-size: 28px;
+  line-height: 33px;
+  transition-duration: 0.3s;
+}
+.purchase-heading:hover .coffee {
+  color: #c7b299;
 }
