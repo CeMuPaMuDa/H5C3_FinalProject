@@ -21,7 +21,7 @@
 }
 @font-face {
   font-family: "Raleway";
-  src: local("☺"), url("../fonts/Raleway-Regular/") format("woff");
+  src: local("☺"), url("../fonts/Raleway-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -78,6 +78,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .realization {
   background: #fbfaf8;
@@ -142,13 +143,10 @@ body {
   margin-right: 30px;
 }
 /* slider */
-.slider-block {
-  display: flex;
-  justify-content: space-between;
-}
 .slider-left {
-  margin-top: 42px;
-  margin-left: -122px;
+  position: absolute;
+  top: 451px;
+  left: 160px;
   background-color: Transparent;
   background-repeat: no-repeat;
   width: 40px;
@@ -156,8 +154,9 @@ body {
   transition-duration: 0.2s;
 }
 .slider-right {
-  margin-top: 42px;
-  margin-right: -122px;
+  position: absolute;
+  top: 451px;
+  right: 160px;
   background-color: Transparent;
   background-repeat: no-repeat;
   width: 40px;
@@ -171,7 +170,7 @@ body {
 .slider-text-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-content: center;
   margin-bottom: 315px;
 }
 .slider-heading {
@@ -184,6 +183,8 @@ body {
   margin-bottom: 4px;
 }
 .slider-p {
+  margin-left: auto;
+  margin-right: auto;
   font-size: 16px;
   line-height: 20px;
   max-width: 563px;
@@ -217,6 +218,12 @@ body {
   flex-direction: column;
   align-items: center;
   min-width: 270px;
+}
+.skill:hover path,
+.skill:hover .skill-heading,
+.skill:hover rect {
+  fill: #c7b299;
+  color: #c7b299;
 }
 .skill-img {
   margin-bottom: 30px;
